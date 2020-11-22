@@ -333,9 +333,9 @@ root.appendChild(content);
                     label15.style = 'font-weight: bold;';
                     let span10 = document.createElement('span');
                     span10.innerHTML = "11/2001 - 06/2005";
-                    let span11 = document.createElement('span');
-                    span11.innerHTML = "University of California, Los Angeles";
-                skill15.append(label15, span10, span11);
+                skill15.append(label15, span10);
+                let span11 = document.createElement('span');
+                span11.innerHTML = "University of California, Los Angeles";
                 
-            p6.append(skill14, span8, span9, ul3, skill15);
+            p6.append(skill14, span8, span9, ul3, skill15, span11);
             subcontent5.append(i5, contentHeading5, p6)
