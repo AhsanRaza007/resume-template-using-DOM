@@ -1,0 +1,102 @@
+html{
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+}
+
+.empty-line{
+    height: 40px;
+    background-color: rgb(238,238,238);
+}
+
+.image{
+    height: 130px;
+    width: auto;
+    border-radius: 50%;
+    border: 5px dotted rgb(250,190,40);
+    margin-bottom: 10px;
+}
+
+.name{
+    background-color: rgb(250,190,40);
+    width: fit-content;
+    border-radius: 4px;
+    padding:10px 20px;
+    position: absolute;
+    font-size: 2rem;
+    top: 150px;
+    left: 310px;
+}
+.personal-detail{
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 10px;
+}
+.right-border{
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.icon{
+    color: rgb(250,190,40);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 100%;
+    border: 3px dotted rgb(250,190,40);
+}
+
+.content-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 10px;
+    color:rgba(0, 0, 0, 0.7);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content{
+    width: 50%;
+    padding: 20px;
+}
+
+.subcontent{
+    font-size: smaller;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+@media (max-width:600px){
+    html{
+        font-size: 10px;
+    }
+    .content{
+        display: block;
+    }
+    .left-content{
+        width: 100%;
+    }
+    .name{
+        left:80px;
+    }
+    .right-border{
+        border:none;
+    }
+}
